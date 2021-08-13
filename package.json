@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/style.css -o public/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToluAdegboyega/tailwind-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToluAdegboyega/tailwind-tut/issues"
+  },
+  "homepage": "https://github.com/ToluAdegboyega/tailwind-tut#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
